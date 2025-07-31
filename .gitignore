@@ -1,0 +1,51 @@
+# Compiled JavaScript and Map files
+# 컴파일된 자바스크립트 파일 및 소스 맵 파일
+#*.js
+#*.js.map
+#*.d.ts # 타입 정의 파일 (주로 컴파일 후 생성되거나, node_modules에서 오기 때문에 제외)
+
+# Node.js dependencies
+# Node.js 의존성 (npm install 시 생성)
+/node_modules
+
+# Logs
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+# 에디터 관련 디렉토리 및 파일
+.vscode/ # VS Code 설정 (개인 설정 제외)
+.idea/ # WebStorm/IntelliJ IDEA 설정
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+# 빌드 결과물 (프로젝트 설정에 따라 다름)
+/dist
+/build
+/out
+
+# Environment variables
+# 환경 변수 파일 (보안 및 개발 환경 분리)
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# npm/yarn/pnpm cache files
+# 패키지 매니저 캐시 파일
+.npm
+.yarn-cache
+.pnpm-store
+
+# macOS files
+# macOS 관련 파일
+.DS_Store
+
+# Windows files
+# Windows 관련 파일
+Thumbs.db
